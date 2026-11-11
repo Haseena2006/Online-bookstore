@@ -1,4 +1,8 @@
-# Default ignored files
+.idea/
+.smarttomcat/
+*.iml
+target/
+.env
 /shelf/
 /workspace.xml
 # Editor-based HTTP Client requests
