@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-label="A Game of Thrones by George R.R. Martin">
+<rect width="400" height="600" fill="#2a2f3a"/>
+<rect x="18" y="18" width="364" height="564" fill="none" stroke="#c9a227" stroke-width="2" opacity=".75"/>
+<rect x="0" y="0" width="14" height="600" fill="#000" opacity=".16"/>
+<text x="200" y="74" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="15" letter-spacing="3" fill="#c9a227">Fantasy</text>
+<line x1="150" y1="92" x2="250" y2="92" stroke="#c9a227" stroke-width="2"/>
+<text text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="44" fill="#e8eaf0"><tspan x="200" y="246">A GAME OF</tspan><tspan x="200" y="295">THRONES</tspan></text>
+<path d="M110 520 L200 400 L290 520 Z" fill="#c9a227"/><path d="M150 520 L200 455 L250 520 Z" fill="#2a2f3a" opacity=".55"/>
+<text x="200" y="556" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="19" fill="#e8eaf0"><tspan x="200" dy="0">George R.R. Martin</tspan></text>
+</svg>

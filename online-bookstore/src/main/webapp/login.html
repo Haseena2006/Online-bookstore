@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Log in | Page & Co.</title>
+  <meta name="description" content="Page & Co. online bookstore">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="images/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="login">
+  <header id="site-header"></header>
+
+  <main class="container">
+    <div class="auth-wrap form-card">
+      <h1>Log in</h1>
+      <div class="notice" id="login-notice" hidden>Log in to add books to your cart.</div>
+      <div class="notice" id="registered-notice" hidden>Account created. Log in to continue.</div>
+      <div class="form-error" id="form-error" role="alert"></div>
+      <form id="login-form" novalidate>
+        <div class="field-group" data-field="email"><label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" required><div class="err"></div></div>
+        <div class="field-group" data-field="password"><label for="password">Password</label><input id="password" name="password" type="password" autocomplete="current-password" required><div class="err"></div></div>
+        <button class="btn btn-primary btn-block btn-lg" type="submit">Log in</button>
+      </form>
+      <p style="margin:18px 0 0">New here? <a href="register.html">Create an account</a></p>
+    </div>
+  </main>
+  <footer id="site-footer"></footer>
+  <script src="js/app.js" defer></script>
+</body>
+</html>

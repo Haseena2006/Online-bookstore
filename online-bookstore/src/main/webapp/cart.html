@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your cart | Page & Co.</title>
+  <meta name="description" content="Page & Co. online bookstore">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="images/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="cart">
+  <header id="site-header"></header>
+
+  <main>
+    <div class="page-head"><div class="container"><h1>Your cart</h1></div></div>
+    <div class="container cart-layout">
+      <div id="cart-list"><div class="skeleton" style="aspect-ratio:auto;height:120px"></div></div>
+      <aside class="summary" id="cart-summary" aria-label="Order total">
+        <h2>Summary</h2>
+        <div class="summary-row"><span>Items</span><span id="sum-items">0</span></div>
+        <div class="summary-row"><span>Subtotal</span><span id="sum-subtotal">&#8377;0</span></div>
+        <div class="summary-row"><span>Delivery</span><span>Free</span></div>
+        <div class="summary-row total"><span>Total</span><span id="sum-total">&#8377;0</span></div>
+        <a class="btn btn-primary btn-block btn-lg" href="checkout.html">Proceed to checkout</a>
+        <a class="btn btn-outline btn-block" href="books.html">Continue shopping</a>
+      </aside>
+    </div>
+  </main>
+  <footer id="site-footer"></footer>
+  <script src="js/app.js" defer></script>
+  <script src="js/cart.js" defer></script>
+</body>
+</html>

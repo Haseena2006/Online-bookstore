@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Page & Co. | Online bookstore</title>
+  <meta name="description" content="Page & Co. online bookstore">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="images/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="home">
+  <header id="site-header"></header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1 id="hero-title">Books worth staying up for</h1>
+          <p>Fiction, science, history and more, picked for readers. Order online and pay when your books arrive.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary btn-lg" href="books.html">Browse all books</a>
+            <a class="btn btn-outline btn-lg" href="#featured">See featured picks</a>
+          </div>
+        </div>
+        <div class="shelf" id="shelf" aria-label="Featured books on a shelf"></div>
+      </div>
+    </section>
+
+    <div class="container" id="home-error"></div>
+
+    <section class="section" id="featured" aria-labelledby="featured-h">
+      <div class="container">
+        <div class="section-head"><h2 id="featured-h">Featured books</h2><a href="books.html">See all books</a></div>
+        <div class="grid" id="featured-grid"></div>
+      </div>
+    </section>
+
+    <section class="section band" aria-labelledby="popular-h">
+      <div class="container">
+        <div class="section-head"><h2 id="popular-h">Popular books</h2><a href="books.html?sort=price_asc">Shop by price</a></div>
+        <div class="grid" id="popular-grid"></div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="new-h">
+      <div class="container">
+        <div class="section-head"><h2 id="new-h">New arrivals</h2><a href="books.html">See all books</a></div>
+        <div class="grid" id="new-grid"></div>
+      </div>
+    </section>
+
+    <section class="section band" id="categories" aria-labelledby="cat-h">
+      <div class="container">
+        <div class="section-head"><h2 id="cat-h">Browse by category</h2></div>
+        <div class="cat-grid" id="cat-grid"></div>
+      </div>
+    </section>
+
+    <section class="section" id="about" aria-labelledby="about-h">
+      <div class="container two-col">
+        <div>
+          <h2 id="about-h">About us</h2>
+          <p>Page &amp; Co. is a small online bookstore for people who read on trains, in queues and long past bedtime. We keep the shelves focused: books we would hand to a friend.</p>
+          <p>Every order is placed from your account, and you pay in cash when it arrives.</p>
+        </div>
+        <div id="contact">
+          <h2>Contact us</h2>
+          <ul class="contact-list">
+            <li>Visit: 12 Library Lane, Chennai 600001</li>
+            <li>Email: <a href="mailto:hello@pageandco.example">hello@pageandco.example</a></li>
+            <li>Call: +91 90000 00000 (Mon to Sat, 10:00 to 18:00)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer id="site-footer"></footer>
+  <script src="js/app.js" defer></script>
+</body>
+</html>

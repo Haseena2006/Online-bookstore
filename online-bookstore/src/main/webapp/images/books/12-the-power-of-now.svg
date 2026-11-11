@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-label="The Power of Now by Eckhart Tolle">
+<rect width="400" height="600" fill="#4c8c9b"/>
+<rect x="18" y="18" width="364" height="564" fill="none" stroke="#fcd581" stroke-width="2" opacity=".75"/>
+<rect x="0" y="0" width="14" height="600" fill="#000" opacity=".16"/>
+<text x="200" y="74" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="15" letter-spacing="3" fill="#fcd581">Self-Help</text>
+<line x1="150" y1="92" x2="250" y2="92" stroke="#fcd581" stroke-width="2"/>
+<text text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="36" fill="#fdfaf2"><tspan x="200" y="246">THE POWER OF</tspan><tspan x="200" y="287">NOW</tspan></text>
+<path d="M60 430 Q 200 380 340 430" fill="none" stroke="#fcd581" stroke-width="3" opacity="0.95"/><path d="M60 448 Q 200 398 340 448" fill="none" stroke="#fcd581" stroke-width="3" opacity="0.77"/><path d="M60 466 Q 200 416 340 466" fill="none" stroke="#fcd581" stroke-width="3" opacity="0.59"/><path d="M60 484 Q 200 434 340 484" fill="none" stroke="#fcd581" stroke-width="3" opacity="0.41"/><path d="M60 502 Q 200 452 340 502" fill="none" stroke="#fcd581" stroke-width="3" opacity="0.23"/>
+<text x="200" y="556" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="19" fill="#fdfaf2"><tspan x="200" dy="0">Eckhart Tolle</tspan></text>
+</svg>
